@@ -15,4 +15,5 @@ Feature: Validate search
 #Search by typing
 #Search by copy and paste 
 #Search with empty field  
-#Success search error search
+#Success search 
+#Error search
