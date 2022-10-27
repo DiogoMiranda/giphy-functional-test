@@ -14,6 +14,14 @@ puts '--- Test Environment Variables ---'
 puts 'Browser            ' + browser_name
 puts '---'
 
+
+
+# Delete screenshots folder
+# FileUtils.rm_rf("../giphy-functional-test/failure_screenshots")
+
+# ignore WARNs
+# Selenium::WebDriver.logger.ignore(:browser_options)
+
 # Configure Capybara with defaults
 Capybara.configure do |config|
   config.default_driver = :selenium
