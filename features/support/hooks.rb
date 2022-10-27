@@ -7,3 +7,9 @@ After do |scenario|
   end
   Capybara.current_session.driver.quit  
 end
+
+# After do |scenario|
+#  Capybara.current_session.instance_variable_set(:@touched, false)
+#  Capybara.save_path = "./failure_screenshots"
+#  Capybara.current_session.driver.quit  
+#end
