@@ -41,6 +41,18 @@ Capybara.register_driver :selenium_chrome do |app|
   Capybara::Selenium::Driver.new(app, :browser => :chrome)
 end
 
+
+#Capybara.register_driver :selenium_chrome do |app|
+#  browser_options = Selenium::WebDriver::Chrome::Options.new
+#  browser_options.add_argument('allow-insecure-localhost')  # Ignore TLS/SSL errors on localhost
+#  browser_options.add_argument('ignore-certificate-errors') # Ignore certificate related errors
+#  browser_options.add_argument('ignore-ssl-errors') # Ignore SSL errors
+#  browser_options.add_argument('headless')
+#  browser_options.add_argument('no-sandbox')
+#  Capybara::Selenium::Driver.new(app, :browser => :chrome, options:browser_options)
+#end
+
+
 # Choose a driver to use
 case browser_name.upcase
   when 'CHROME'
