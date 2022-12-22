@@ -28,12 +28,13 @@ brew install --cask chromedriver
 ```
 
 If error - chromedriver” cannot be opened because the developer cannot be verified. Unable to launch the chrome browser
-Run to fix 
+
+### Run to fix 
 
 ```
 which chromedriver
 ```
-After 
+### After 
 
 ```
 xattr -d com.apple.quarantine /usr/local/bin/chromedriver
