@@ -26,6 +26,18 @@ Check before your version Chrome
 ```
 brew install --cask chromedriver
 ```
+
+If error - chromedriver” cannot be opened because the developer cannot be verified. Unable to launch the chrome browser
+Run to fix 
+
+```
+which chromedriver
+```
+After 
+
+```
+xattr -d com.apple.quarantine /usr/local/bin/chromedriver
+```
 ### Windows
 
 install and run the same version Chromedriver of your Chrome https://chromedriver.chromium.org/downloads
