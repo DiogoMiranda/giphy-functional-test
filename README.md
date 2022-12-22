@@ -77,3 +77,5 @@ https://pt.linkedin.com/pulse/do-zero-ao-b%C3%A1sico-aprenda-criar-um-teste-de-a
 https://github.com/teamcapybara/capybara
 
 https://www.devmedia.com.br/introducao-ao-recursos-basicos-da-linguagem-ruby/31504
+
+https://timonweb.com/misc/fixing-error-chromedriver-cannot-be-opened-because-the-developer-cannot-be-verified-unable-to-launch-the-chrome-browser-on-mac-os/
