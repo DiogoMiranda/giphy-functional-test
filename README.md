@@ -19,7 +19,14 @@ Install Rbenv
 
 ## Chromedriver
 
+
 Check before your version Chrome
+
+### Mac 
+```
+brew install --cask chromedriver
+```
+### Windows
 
 install and run the same version Chromedriver of your Chrome https://chromedriver.chromium.org/downloads
 
